@@ -1,2 +1,8 @@
 # yahoo_prices
-Get past equity prices from yahoo, uses the new endpoint (query1.finance.yahoo.com/v7/finance/download/)
+
+Get daily/weekly/monthly returns and prices of equities from yahoo's new tricky endpoint query1.finance.yahoo.com/v7/finance/download/
+
+# Usage
+
+## Importing from clojars
+
