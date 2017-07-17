@@ -74,7 +74,7 @@
     (get-returns code since now-str {:interval "1d"})
     ))
 
-(defn get-weekly-returns1
+(defn get-weekly-returns
   [code since]
   (let [now-str (f/unparse (f/formatter "yyyy-MM-dd") (t/now))]
     (get-returns code since now-str {:interval "1wk"})
